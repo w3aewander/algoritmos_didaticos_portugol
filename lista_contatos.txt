@@ -1,0 +1,6 @@
+NOME	EMAIL
+Herbert	herber@email.com
+Nicolas	nicolas@email.com
+Rauan	rauan@email.com
+Victor Binda	victor.binda@gmail.com
+Arthur	arthur@email.com
