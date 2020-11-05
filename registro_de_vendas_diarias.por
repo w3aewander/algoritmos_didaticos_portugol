@@ -75,6 +75,7 @@ programa
 
 	   inteiro arquivo = a.abrir_arquivo(caminho_somatorio, a.MODO_LEITURA)
         real valor = 0.0
+        somatorio = 0.0
         
         enquanto ( nao a.fim_arquivo(arquivo) ){
 
@@ -85,8 +86,7 @@ programa
            }
            
         	 somatorio = somatorio + valor
-
-        	 u.aguarde(3000)
+        	
         }
  
 	   a.fechar_arquivo(arquivo)
@@ -137,14 +137,3 @@ programa
 	}
 		
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 2142; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
