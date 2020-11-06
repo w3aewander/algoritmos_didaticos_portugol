@@ -83,9 +83,10 @@ programa
            
            se ( nao ( linha ==  "" )   ){           	
         	    valor = t.cadeia_para_real(linha)
+		     somatorio = somatorio + valor
            }
            
-        	 somatorio = somatorio + valor
+        	
         	
         }
  
